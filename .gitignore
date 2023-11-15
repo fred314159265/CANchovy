@@ -28,3 +28,4 @@ fp-info-cache
 *.xml
 *.csv
 /CANable_ISO_PCB/replicate_layout.log
+*.FCStd1
