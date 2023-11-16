@@ -6,8 +6,8 @@
 
   (title_block
     (title "8-Way Select")
-    (date "2023-10-31")
-    (rev "A")
+    (date "2023-11-16")
+    (rev "B")
     (company "N/A")
     (comment 1 "MKS CANable V2 based")
   )
