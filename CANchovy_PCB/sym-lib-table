@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CANchovy_PCB")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Schematic/CANchovy_PCB.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,115 @@
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.6
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000020510913DC0>
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with JP21 as a reference
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'JP21'
+Located on: ['8_way_select2']
+With filenames: ['8_way_select.kicad_sch']
+With sheet_id:['8_way_select2']
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('JP21', ['8_way_select2']), ('JP13', ['8_way_select1']), ('JP5', ['8_way_select'])]
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'8_way_select2', file:'8_way_select.kicad_sch'
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['8_way_select'], ['8_way_select1']]
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['8_way_select2']
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1883, 80)
+10-08 18:45:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1444, 80)
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'8_way_select2', file:'8_way_select.kicad_sch'
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['8_way_select'], ['8_way_select1']]
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['8_way_select'], ['8_way_select1']]
+on level: ['8_way_select2']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+10-08 18:45:56 root 332:updating GUI message: 'Preparing for replication'
+10-08 18:45:56 root 337:updating GUI with: 0
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+10-08 18:45:56 root 337:updating GUI with: 66
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+10-08 18:45:56 root 332:updating GUI message: 'Replicating footprints'
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['8_way_select']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['8_way_select1']
+10-08 18:45:56 root 332:updating GUI message: 'Replicating tracks'
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['8_way_select']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['8_way_select'] :[('/RJ45_6', '/RJ45_6'), ('/RJ45_2', '/RJ45_2'), ('/RJ45_8', '/RJ45_8'), ('/RJ45_4', '/RJ45_4'), ('/RJ45_5', '/RJ45_5'), ('/RJ45_3', '/RJ45_3'), ('/RJ45_7', '/RJ45_7'), ('/RJ45_1', '/RJ45_1'), ('0V_ISO', '/CAN_H')]
+10-08 18:45:56 root 337:updating GUI with: 7
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['8_way_select1']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['8_way_select1'] :[('/RJ45_6', '/RJ45_6'), ('/RJ45_2', '/RJ45_2'), ('0V_ISO', '/CAN_L'), ('/RJ45_8', '/RJ45_8'), ('/RJ45_4', '/RJ45_4'), ('/RJ45_5', '/RJ45_5'), ('/RJ45_3', '/RJ45_3'), ('/RJ45_7', '/RJ45_7'), ('/RJ45_1', '/RJ45_1')]
+10-08 18:45:56 root 332:updating GUI message: 'Replicating zones'
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['8_way_select']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_H'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['8_way_select'] :[('/RJ45_6', '/RJ45_6'), ('/RJ45_2', '/RJ45_2'), ('/RJ45_8', '/RJ45_8'), ('/RJ45_4', '/RJ45_4'), ('/RJ45_5', '/RJ45_5'), ('/RJ45_3', '/RJ45_3'), ('/RJ45_7', '/RJ45_7'), ('/RJ45_1', '/RJ45_1'), ('0V_ISO', '/CAN_H')]
+10-08 18:45:56 root 337:updating GUI with: 50
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['8_way_select1']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['0V_ISO'] and dst net: ['', 'CAN_L'], with src_net_depth=1, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.18
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['8_way_select1'] :[('/RJ45_6', '/RJ45_6'), ('/RJ45_2', '/RJ45_2'), ('0V_ISO', '/CAN_L'), ('/RJ45_8', '/RJ45_8'), ('/RJ45_4', '/RJ45_4'), ('/RJ45_5', '/RJ45_5'), ('/RJ45_3', '/RJ45_3'), ('/RJ45_7', '/RJ45_7'), ('/RJ45_1', '/RJ45_1')]
+10-08 18:45:56 root 332:updating GUI message: 'Replicating text'
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['8_way_select']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['8_way_select1']
+10-08 18:45:56 root 332:updating GUI message: 'Replicating drawings'
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['8_way_select']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['8_way_select1']
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+10-08 18:45:56 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint JP16, pad 2
+Footprint JP10, pad 2
+Footprint JP14, pad 2
+Footprint JP11, pad 2
+Footprint JP9, pad 2
+Footprint JP12, pad 2
+Footprint JP7, pad 2
+Footprint JP3, pad 2
+Footprint JP13, pad 2
+Footprint JP4, pad 2
+Footprint JP1, pad 2
+Footprint JP6, pad 2
+Footprint JP2, pad 2
+Footprint JP15, pad 2
+Footprint JP8, pad 2
+Footprint JP5, pad 2
+
