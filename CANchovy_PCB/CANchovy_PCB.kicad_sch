@@ -6,8 +6,8 @@
 
   (title_block
     (title "CANchovy")
-    (date "2023-11-16")
-    (rev "B")
+    (date "2023-11-30")
+    (rev "C")
     (company "N/A")
     (comment 1 "MKS CANable V2 based")
   )
