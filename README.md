@@ -32,7 +32,7 @@ There area couple of suitable firmware options - which firmware you will want to
 
 ## gs_usb
 
-Using a firmware version which uses the gs_usb protocol will mostly be useful for SocketCAN on Linux, but python-can does support the gs_usb protocol on all platforms. gs_usb firmware options support CAN FD.
+Using a firmware version which uses the gs_usb protocol will mostly be useful for SocketCAN on Linux, but [python-can](https://python-can.readthedocs.io/en/stable/interfaces/gs_usb.html) does support the gs_usb protocol on all platforms. gs_usb firmware options support CAN FD.
 
 * candlelight build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html).
 * budgetcan_fw - [board_canablev2](https://github.com/ryedwards/budgetcan_fw/tree/main/Portable/board_canablev2) target.
