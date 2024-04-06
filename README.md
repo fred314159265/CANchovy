@@ -24,6 +24,30 @@ Assembled CANchovies from JLCPCB of both revision A & B have been tested and wor
 
 Revision C has the silkscreen fixed and is ready to manufacture and use.
 
+# Firmware
+
+As the CANchovy is based upon the MKS CANable V2.0, it is compatible with firmware which is compatible with the MKS CANable V2.0.
+
+There area couple of suitable firmware options - which firmware you will want to use really depends on your use case. 
+
+## gs_usb
+
+Using a firmware version which uses the gs_usb protocol will mostly be useful for SocketCAN on Linux, but python-can does support the gs_usb protocol on all platforms. gs_usb firmware options support CAN FD.
+
+* candlelight build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html).
+* budgetcan_fw - [board_canablev2](https://github.com/ryedwards/budgetcan_fw/tree/main/Portable/board_canablev2) target.
+
+## SLCAN
+
+SLCAN is a protocol which operates over a serial port. Nearly all OS's have support for serial ports and so is very cross-platform. However, support for SLCAN is not very widespread.
+
+You can also mount the serial port as a SocketCAN port on Linux (E.g. as described [here](https://elinux.org/Bringing_CAN_interface_up).), however, it does not support FD CAN at this time.
+
+FD CAN is possible with the SLCAN firmware, but even fewer programs support FD with SLCAN (if any?). It may be a viable for custom applications where non-Linux is a requirement and Python is not an option.
+
+
+* slcan with FD support build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html) - [source repo](https://github.com/normaldotcom/canable2-fw).
+
 # Configuring RJ45 Connections
 
 As mentioned above, a feature of this board is that the RJ45's pinout is user configurable. By soldering one jumper for each of the three connections (0V, CAN_H, CAN_L) on the rear of the board, your custom CAN pinout over RJ45 can be supported!
