@@ -32,10 +32,10 @@ There area couple of suitable firmware options - which firmware you will want to
 
 ## gs_usb
 
-Using a firmware version which uses the gs_usb protocol will mostly be useful for SocketCAN on Linux, but [python-can](https://python-can.readthedocs.io/en/stable/interfaces/gs_usb.html) does support the gs_usb protocol on all platforms. gs_usb firmware options support CAN FD.
+Using a firmware version which uses the gs_usb protocol will mostly be useful for SocketCAN on Linux, but [python-can](https://python-can.readthedocs.io/en/stable/interfaces/gs_usb.html) does support the gs_usb protocol on all platforms. (__Note:__ The Linux kernel only supports CAN FD with the gs_usb driver after version 5.18.)
 
-* candlelight build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html).
-* budgetcan_fw - [board_canablev2](https://github.com/ryedwards/budgetcan_fw/tree/main/Portable/board_canablev2) target.
+* budgetcan_fw - [board_canablev2](https://github.com/ryedwards/budgetcan_fw/tree/main/Portable/board_canablev2) target - I have confirmed that FD CAN is working.
+* candlelight build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html) - I have not tested if FD CAN support is present, notes on canalbe website suggest FD support is not implemented in these candlelight FW builds (yet?).
 
 ## SLCAN
 
@@ -57,3 +57,9 @@ Simply bridge one of the solder jumpers in each of the silkscreen boxes (labelle
 __⚠⚠⚠ Care must be taken to ensure no two signals are connected to the same RJ45 pin! ⚠⚠⚠__
 
 <img src="Images\PinMapping.png" alt="PCB-Top" style="zoom: 45%;" />
+
+# Ordering
+
+Gerbers, BOM, etc. can all be found in the [releases](https://github.com/fred314159265/CANchovy/releases) area.
+
+When ordering from JLCPCB, is is suggested to select "JLC04161H-7628" under the controlled impedance option, although the USB run is so short that even non-controlled impedance stack-ups will likely work too.
