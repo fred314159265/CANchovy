@@ -34,8 +34,8 @@ There area couple of suitable firmware options - which firmware you will want to
 
 Using a firmware version which uses the gs_usb protocol will mostly be useful for SocketCAN on Linux, but [python-can](https://python-can.readthedocs.io/en/stable/interfaces/gs_usb.html) does support the gs_usb protocol on all platforms. (__Note:__ The Linux kernel only supports CAN FD with the gs_usb driver after version 5.18.)
 
-* budgetcan_fw - [board_canablev2](https://github.com/ryedwards/budgetcan_fw/tree/main/Portable/board_canablev2) target - I have confirmed that FD CAN is working.
-* candlelight build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html) - I have not tested if FD CAN support is present, notes on canalbe website suggest FD support is not implemented in these candlelight FW builds (yet?).
+* budgetcan_fw - [board_canablev2](https://github.com/ryedwards/budgetcan_fw/tree/main/Portable/board_canablev2) target - I have confirmed that FD CAN is working as of [`e8fb8efebdac22019dc7e73dfec773c6fd2ec5a8`](https://github.com/ryedwards/budgetcan-fw/commit/e8fb8efebdac22019dc7e73dfec773c6fd2ec5a8).
+* candlelight build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html) - I have not tested if FD CAN support is present, notes on canable website suggest FD support is not implemented in these candlelight FW builds (yet?).
 
 ## SLCAN
 
@@ -44,7 +44,6 @@ SLCAN is a protocol which operates over a serial port. Nearly all OS's have supp
 You can also mount the serial port as a SocketCAN port on Linux (E.g. as described [here](https://elinux.org/Bringing_CAN_interface_up).), however, it does not support FD CAN at this time.
 
 FD CAN is possible with the SLCAN firmware, but even fewer programs support FD with SLCAN (if any?). It may be a viable for custom applications where non-Linux is a requirement and Python is not an option.
-
 
 * slcan with FD support build from [CANable 2.0 web updater](https://canable.io/updater/canable2.html) - [source repo](https://github.com/normaldotcom/canable2-fw).
 
